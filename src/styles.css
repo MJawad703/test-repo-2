@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.login-card {
+  width: 350px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 7px;
+  box-shadow: 10px 10px 28px -16px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px -16px rgba(0, 0, 0, 0.75);
+}
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  color: grey;
+  font-size: 13px;
+  padding: 10px 20px;
+}
+.input-container input:focus {
+  outline: none;
+}
+.forget-password {
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+.button {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 12px 0px;
+  border-radius: 40px;
+  color: #fff;
+  border: none;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.refrence-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-svg-icon {
+  width: 15px;
+  height: 15px;
+  color: white;
+  position: absolute;
+  left: 13px;
+  top: 12px;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #00acee;
+}
+
+.google {
+  background: #db4a39;
+}
+
+.footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: grey;
+  font-weight: lighter;
+  font-size: 13px;
+}
